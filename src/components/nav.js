@@ -17,7 +17,7 @@ const Navlink = ({ children, to, external = false }) => {
 
   return (
     <Box sx={{ my: "auto", pb:[2, 0, 0, 0] }}>
-      {external ? <a href={to} target="_blank"> {button} </a> : <Link to={to}> {button} </Link>}
+      {external ? <a href={to} target="_blank" rel="noreferrer"> {button} </a> : <Link to={to}> {button} </Link>}
     </Box>
   );
 };
@@ -44,9 +44,9 @@ const Navbar = () => (
       </Heading>
       <Box sx={{ mx: "auto" }}></Box>
       <Box>
-        <Navlink to="/about"> Home </Navlink>
+        <Navlink to="/about"> About Me </Navlink>
         <Navlink to="/"> Blog </Navlink>
-        <Navlink external={true} to="https://drive.google.com/file/d/1OEg4nZAnqHKTMuYdlVuYouBxQqgOX9k0/view">
+        <Navlink external={true} to="https://drive.google.com/file/d/1W4T7fqpxg45Z4tP1IwLmE2UPHbDNQvvS/view?usp=sharing">
           Resume
         </Navlink>
       </Box>

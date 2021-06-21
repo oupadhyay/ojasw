@@ -47,7 +47,7 @@ const Value = ({ mode }) => {
         setDisplay(`SCROLL: 0.${format((y * 100).toFixed(0), 2)}`)
       }
       window.addEventListener('scroll', setFromEvent)
-      const y = scrollFraction(window, document)
+      // const y = scrollFraction(window, document)
       return () => {
         window.removeEventListener('scroll', setFromEvent)
       }
