@@ -41,7 +41,13 @@ We accomplished the following:
 * creating and training a basic model
 * running the model on a test case
 
+### Before and After Comparison
+
+This comparison will show the changes made by the AI in the district boundaries for Chicago and the surrounding area.
+![before](../assets/gerryai-before.jpg) ![after](../assets/gerryai-after.jpg)
+
 ## Next Steps
 The next steps would be to optimize the model, increase its capabilities, open the inputs to GeoJSON files and other formats. We also want to use different metrics to determine district merges, including financial data, staff metrics, and special needs education capabilities. In addition to new data and methods, we want to make this project accessible, so that findings can be easily transferred to political changes to school districts. There are very few precedents to this change and that is exactly why we start now.
 
-In the next post, I will be working on creating my own dark mode pdf viewer based on the Nord Theme and possibly the Dracula theme to finish off my quest to never look at light mode again.
+## What's Next?
+Thank you for reading my first post on my website. Hopefully, you found it interesting. In the next post, I will be working on creating my own dark mode pdf viewer based on the Nord Theme and possibly the Dracula theme to finish off my quest to never look at light mode again.
