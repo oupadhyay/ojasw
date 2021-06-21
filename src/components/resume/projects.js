@@ -29,7 +29,7 @@ const Projects = () => (
           COMING SOON...
           In the meanwhile,
         </Text>
-        <a href="https://drive.google.com/file/d/1W4T7fqpxg45Z4tP1IwLmE2UPHbDNQvvS/view" target="_blank" rel="noreferrer">
+        <a href="/resume" target="_blank" rel="noreferrer">
           <CalloutButton color="primary" label="Resume" />
         </a>
       </Column>

@@ -59,7 +59,7 @@ const Intro = () => (
           </Text>
 
           <Box mt={[4]}>
-            <Link to={"https://drive.google.com/file/d/1W4T7fqpxg45Z4tP1IwLmE2UPHbDNQvvS/view?usp=sharing"}>
+            <Link to={"/resume"}>
               <ArrowButton size="md" label="Resume" />
             </Link>
             <Link to={"/"}>

@@ -46,7 +46,7 @@ const Navbar = () => (
       <Box>
         <Navlink to="/about"> About Me </Navlink>
         <Navlink to="/"> Blog </Navlink>
-        <Navlink external={true} to="https://drive.google.com/file/d/1W4T7fqpxg45Z4tP1IwLmE2UPHbDNQvvS/view?usp=sharing">
+        <Navlink external={true} to="/resume">
           Resume
         </Navlink>
       </Box>
