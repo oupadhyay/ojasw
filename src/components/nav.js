@@ -54,7 +54,7 @@ const Navbar = () => (
 
     <Box mt={[1, 3, 3, 3]} mb={[1, 2, 2, 2]}>
       <Text sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps" }}>
-        MATH, CODE, AND OTHER THINGS.
+        MATH, CODE, AND OTHER CURIOSITIES.
       </Text>
     </Box>
   </Box>
