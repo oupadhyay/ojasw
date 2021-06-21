@@ -12,7 +12,7 @@ const { ArrowButton } = Buttons;
 
 const Navlink = ({ children, to, external = false }) => {
   const button = (
-    <ArrowButton fill="blue" size={"sm"} px={[2, 3]} label={children} />
+    <ArrowButton fill="purple" size={"sm"} px={[2, 3]} label={children} />
   );
 
   return (

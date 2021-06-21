@@ -22,7 +22,7 @@ const CarbonPlan = () => (
       label="(carbon)plan"
       fill="green"
       color="green"
-      size="sm"
+      size="xs"
       sx={{ display: "inline-block" }}
     />
   </a>
