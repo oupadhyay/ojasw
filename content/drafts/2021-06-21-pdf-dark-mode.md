@@ -1,7 +1,7 @@
 ---
-title: Fast Fluid Dynamics
-date: 2020-05-14
-author: Sanjay Yepuri & Helen Zhou
+title: PDFs and the Quest for Dark Mode
+date: 2021-06-21
+author: Ojasw Upadhyay
 type: post
 ---
 
@@ -13,6 +13,8 @@ In FFD there are a few simplifying assumptions that are made. First, we assume t
 Before we discuss the details here is a [demo](/fluids). You can find the code for it on my github [here](https://github.com/sanjayyepuri/fluids).
 
 ### Navier-Stokes Equations for Incompressible Flow
+
+
 Fluids are mathematically represented as vector fields; the vector field $$\boldsymbol{u}(p, t)$$ represents the velocity of the fluid at the point $$p$$ at time $$t$$. Now, in order for the fluid created by $$\boldsymbol{u}$$ to resemble one in our world the vector field must satisfy the Navier-Stokes equations for Incompressible Flow.
 
 $$
