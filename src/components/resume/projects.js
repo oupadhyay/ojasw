@@ -27,9 +27,9 @@ const Projects = () => (
       <Column start={[1, 1, 2, 2]} width={[4]}>
         <Text color="text" variant="caps" sx={{ fontSize: 3 }}>
           COMING SOON...
-          In the meanwhile, please check out my
+          In the meanwhile,
         </Text>
-        <a href="https://drive.google.com/file/d/1W4T7fqpxg45Z4tP1IwLmE2UPHbDNQvvS/view" target="_blank">
+        <a href="https://drive.google.com/file/d/1W4T7fqpxg45Z4tP1IwLmE2UPHbDNQvvS/view" target="_blank" rel="noreferrer">
           <CalloutButton color="primary" label="Resume" />
         </a>
       </Column>

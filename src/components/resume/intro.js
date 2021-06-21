@@ -54,13 +54,12 @@ const Intro = () => (
         >
           <Text>
             I am an incoming freshman at the Georgia Institute of Technology. I
-            am majoring in Computer Science and Mathematics. Feel free to shoot
-            me an email if you have anything to say, interesting articles, job
-            opportunities, etc.
+            am majoring in Computer Science with a concentration in Intelligence and "Information Internetworks." Feel free to send
+            me an email, interesting articles, job opportunities, etc.
           </Text>
 
           <Box mt={[4]}>
-            <Link to={"/resume"}>
+            <Link to={"https://drive.google.com/file/d/1W4T7fqpxg45Z4tP1IwLmE2UPHbDNQvvS/view?usp=sharing"}>
               <ArrowButton size="md" label="Resume" />
             </Link>
             <Link to={"/"}>

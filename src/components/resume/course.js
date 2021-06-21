@@ -4,15 +4,12 @@ import { Row, Column } from "@carbonplan/components";
 
 const CourseList = [
   "Differential and Integral Calculus",
+  "Linear Algebra",
   "Object Oriented Programming",
   "French",
   "Macroeconomics",
   "Mechanics",
   "Electricity & Magnetism",
-];
-
-const InProgCourses = [
-  "Linear Algebra",
 ];
 
 const CourseWork = () => (
