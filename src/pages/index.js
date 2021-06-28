@@ -12,7 +12,7 @@ import PostList from "../components/postlist"
 // markup
 const IndexPage = () => {
   return (
-    <Layout mode="mouse">
+    <Layout mode="mouse" title={'blog / ojasw'}>
       <PostList />
     </Layout>
   )

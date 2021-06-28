@@ -7,7 +7,7 @@ import Layout from './layout'
 import Row from './row'
 import Column from './column'
 
-const NotFoundPage = () => {
+const ResumePage = () => {
   return (
     <Layout footer={false} mode="mouse" title={'404 / ojasw'}>
       <Row sx={{ mb: [5, 0, 0], pt: [0, 0, 6] }}>
@@ -52,4 +52,4 @@ const NotFoundPage = () => {
   )
 }
 
-export default NotFoundPage
+export default ResumePage

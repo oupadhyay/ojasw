@@ -16,7 +16,7 @@ import { Box } from "@theme-ui/components";
 // markup
 const AboutPage = () => {
   return (
-    <Layout mode="mouse">
+    <Layout mode="mouse" title={'about me / ojasw'}>
       <Box mt={[1, 2]} mb={[1, 2, 2, 2]}>
         <Intro />
         <Experience />
