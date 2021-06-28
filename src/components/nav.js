@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Box, Text, Flex } from "theme-ui";
+import { Box, Text, Flex } from "theme-ui";
 
 import "@carbonplan/components/globals.css"
 import "@carbonplan/components/fonts.css"
@@ -7,7 +7,7 @@ import "katex/dist/katex.min.css"
 
 import { Buttons } from "@carbonplan/components";
 import { Link } from "gatsby";
-import logo from "../images/logo2.png"
+import logo from "../images/logo1.png"
 
 const { ArrowButton } = Buttons;
 
@@ -31,28 +31,22 @@ const Navbar = () => (
     }}
   >
     <Flex>
-      <Heading
-        sx={{
-          fontWeight: "bold",
-          fontSize: [5, 5, 5, 6],
-        }}
-      >
-        <img src={logo} alt="" height="90" />
-      </Heading>
+      <Box>
+        <img src={logo} alt="" height="100" />
+      </Box>
       <Box sx={{ mx: "auto" }}></Box>
       <Box>
+        <br /><br />
+        <Text sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps", paddingTop: "100" }}>
+          MATH, CODE, AND OTHER CURIOSITIES.
+        </Text>
+      </Box>
+      <Box sx={{ mx: "auto" }}></Box>
+      <Box sx={{ paddingTop: "100" }}>
+        <br />
         <Navlink to="/about"> About Me </Navlink>
         <Navlink to="/"> Blog </Navlink>
         <Navlink external={true} to="/resume"> Resume </Navlink>
-      </Box>
-    </Flex>
-    <Flex>
-      <Heading></Heading>
-      <Box sx={{ mx: "auto" }}></Box>
-      <Box>
-        <Text sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps", align: "right" }}>
-          MATH, CODE, AND OTHER CURIOSITIES.
-        </Text>
       </Box>
     </Flex>
   </Box>

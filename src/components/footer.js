@@ -28,18 +28,6 @@ const CarbonPlan = () => (
   </a>
 );
 
-const Sanjay = () => (
-  <a href={"https://ssanjay.dev/"}>
-    <Buttons.ArrowButton
-      label="Sanjay Yepuri"
-      fill="teal"
-      color="teal"
-      size="xs"
-      sx={{ display: "inline-block" }}
-    />
-  </a>
-);
-
 const Footer = () => (
   <Container mt={[7, 7, 7, 8]} mb={[7, 7, 8, 8]} pb={[2, 1, 0, 0]}>
     <Box
@@ -128,7 +116,7 @@ const Footer = () => (
               color: "secondary",
             }}
           >
-            Website built on top of the work of <CarbonPlan /> and <Sanjay />
+            Website built on top of the work of <CarbonPlan />
           </Box>
         </Box>
       </Column>
