@@ -32,7 +32,9 @@ const Navbar = () => (
   >
     <Flex>
       <Box>
-        <img src={logo} alt="" height="100" />
+        <Link to={"/"}>
+          <img src={logo} alt="" height="100" />
+        </Link>
       </Box>
       <Box sx={{ mx: "auto" }}></Box>
       <Box>
