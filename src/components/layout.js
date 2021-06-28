@@ -4,6 +4,7 @@ import { Box, Container, Flex } from "theme-ui";
 import { Dimmer, FadeIn, Guide } from "@carbonplan/components";
 
 import { Helmet } from "react-helmet";
+import favicon from "../images/logo-o.png"
 
 import Navbar from "./nav";
 import Footerbar from "./footer";
@@ -82,6 +83,7 @@ const Layout = ({ mode, children }) => (
     <Helmet htmlAttributes={{ lang: "en-us" }}>
       <meta charset="utf-8" />
       <meta name="description" content="Website about math, code and other curiosities" />
+      <link rel="icon" href="favicon" />
       <title>Ojasw Upadhyay</title>
     </Helmet>
     <Guide />
