@@ -83,7 +83,7 @@ const Layout = ({ mode, children }) => (
     <Helmet htmlAttributes={{ lang: "en-us" }}>
       <meta charset="utf-8" />
       <meta name="description" content="Website about math, code and other curiosities" />
-      <link rel="icon" href="favicon" />
+      <link rel="icon" href={favicon} />
       <title>Ojasw Upadhyay</title>
     </Helmet>
     <Guide />

@@ -7,6 +7,7 @@ import "katex/dist/katex.min.css"
 
 import { Buttons } from "@carbonplan/components";
 import { Link } from "gatsby";
+import logo from "../images/logo2.png"
 
 const { ArrowButton } = Buttons;
 
@@ -36,27 +37,24 @@ const Navbar = () => (
           fontSize: [5, 5, 5, 6],
         }}
       >
-        <Link to={"/"}>
-          <Text sx={{ color: "primary" }}>
-            <Text sx={{ color: "purple" }}>Ojasw</Text> Upadhyay{" "}
-          </Text>
-        </Link>
+        <img src={logo} alt="" height="90" />
       </Heading>
       <Box sx={{ mx: "auto" }}></Box>
       <Box>
         <Navlink to="/about"> About Me </Navlink>
         <Navlink to="/"> Blog </Navlink>
-        <Navlink external={true} to="/resume">
-          Resume
-        </Navlink>
+        <Navlink external={true} to="/resume"> Resume </Navlink>
       </Box>
     </Flex>
-
-    <Box mt={[1, 3, 3, 3]} mb={[1, 2, 2, 2]}>
-      <Text sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps" }}>
-        MATH, CODE, AND OTHER CURIOSITIES.
-      </Text>
-    </Box>
+    <Flex>
+      <Heading></Heading>
+      <Box sx={{ mx: "auto" }}></Box>
+      <Box>
+        <Text sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps", align: "right" }}>
+          MATH, CODE, AND OTHER CURIOSITIES.
+        </Text>
+      </Box>
+    </Flex>
   </Box>
 );
 

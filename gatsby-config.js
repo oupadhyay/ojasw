@@ -16,6 +16,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `ojasw-personal-website`,
+        short_name: `ojasw`,
+        start_url: `/`,
+        icon: `src/images/logo-o.png`
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
