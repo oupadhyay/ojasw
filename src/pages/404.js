@@ -1,6 +1,5 @@
 import * as React from "react"
 
-import React from 'react'
 import { Box, Styled } from 'theme-ui'
 import PoopSad from './emoji/poop-sad'
 import Layout from './layout'
