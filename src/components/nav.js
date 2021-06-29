@@ -48,7 +48,7 @@ const Navbar = () => (
         <br />
         <Navlink to="/about"> About Me </Navlink>
         <Navlink to="/"> Blog </Navlink>
-        <Navlink external={true} to="/resume"> Resume </Navlink>
+        <Navlink to="/resume"> Resume </Navlink>
       </Box>
     </Flex>
   </Box>

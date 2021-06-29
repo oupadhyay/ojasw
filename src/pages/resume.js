@@ -1,17 +1,16 @@
 import * as React from "react"
 
-import { Box, Styled } from 'theme-ui'
+import { Box, Themed } from 'theme-ui'
 import PoopSad from './emoji/poop-sad'
-import Layout from './layout'
-import Row from './row'
-import Column from './column'
+import Layout from "../components/layout";
+import { Column, Row } from '@carbonplan/components'
 
 const ResumePage = () => {
   return (
     <Layout footer={false} mode="mouse" title={'404 / ojasw'}>
       <Row sx={{ mb: [5, 0, 0], pt: [0, 0, 6] }}>
         <Column start={[1, 1, 3, 3]} width={[6, 4, 4, 4]}>
-          <Styled.h1>Oops!</Styled.h1>
+          <Themed.h1>In Progress!</Themed.h1>
           <Box
             sx={{
               fontSize: [4, 4, 4, 5],
@@ -21,7 +20,7 @@ const ResumePage = () => {
               maxWidth: ['90%', '90%', '400px'],
             }}
           >
-            Sorry but we can't seem to find the page you are looking for.
+            Sorry but my resume page is still under construction. Please check back later!
           </Box>
           <Box
             sx={{
@@ -32,7 +31,7 @@ const ResumePage = () => {
               mt: [4, 5, 5],
             }}
           >
-            ERROR CODE 404
+            ERROR CODE 503
           </Box>
         </Column>
         <Column start={[1, 5, 7, 7]} width={[4, 4, 4, 4]}>
