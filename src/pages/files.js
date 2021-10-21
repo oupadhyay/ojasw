@@ -1,35 +1,42 @@
-import * as React from "react"
+import * as React from "react";
 
-import { Box, Themed } from 'theme-ui'
-import PoopSad from './emoji/poop-sad'
+import { Link } from "gatsby";
+import { Box, Themed } from "theme-ui";
 import Layout from "../components/layout";
-import { Column, Row } from '@carbonplan/components'
+import { Row, Buttons } from "@carbonplan/components";
+
+const { ArrowButton } = Buttons;
 
 const ResumePage = () => {
   return (
-    <Layout footer={false} mode="mouse" title={'404 / ojasw'}>
+    <Layout footer={false} mode="mouse" title={"404 / ojasw"}>
       <Row sx={{ mb: [5, 0, 0], pt: [0, 0, 6] }}>
         <Themed.h1>Files!</Themed.h1>
+      </Row>
+      <Row sx={{ mb: [2], pt: [0] }}>
         <Box
-        sx = {
-          {
-            fontSize: [4, 4, 4, 5],
-            lineHeight: 'h3',
-            mt: [3, 4, 4],
-            mb: [2, 3, 3],
-            maxWidth: ['90%', '90%', '400px'],
-          }
-        }>
-          <Link to = {"../../content/assets/pipact-report.pdf"}>
-            <ArrowButton sx = {{color: "red"}}
-              size = "md"
-              label= "piPACT Paper"
+          sx={{
+            fontSize: [7],
+            lineHeight: "h3",
+            maxWidth: ["90%", "90%", "200px"],
+          }}
+        >
+          <Link to={"../../content/assets/pipact-report.pdf"}>
+            <ArrowButton sx={{ color: "red" }} size="sm" label="piPACT Paper" />
+          </Link>
+          <br />
+          <Link to={"../../content/assets/hs-transcript.pdf"}>
+            <ArrowButton
+              sx={{ color: "red" }}
+              size="sm"
+              label="High School Transcript"
             />
-            </Link> 
+          </Link>
+          <br />
         </Box>
       </Row>
     </Layout>
-  )
-}
+  );
+};
 
-export default ResumePage
+export default ResumePage;
