@@ -21,11 +21,11 @@ const ResumePage = () => {
             maxWidth: ["90%", "90%", "200px"],
           }}
         >
-          <Link to={"../../content/assets/pipact-report.pdf"}>
+          <Link to={"../../static/files/asdfjk/pipact-report.pdf"}>
             <ArrowButton sx={{ color: "red" }} size="sm" label="piPACT Paper" />
           </Link>
           <br />
-          <Link to={"../../content/assets/hs-transcript.pdf"}>
+          <Link to={"../../static/files/asdfjk/hs-transcript.pdf"}>
             <ArrowButton
               sx={{ color: "red" }}
               size="sm"
