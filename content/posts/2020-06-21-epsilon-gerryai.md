@@ -1,5 +1,5 @@
 ---
-title: Educational Epsilon Experience
+title: Epsilon Hacks '21
 date: 2020-06-21
 author: Ojasw Upadhyay
 type: post
