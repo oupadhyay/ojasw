@@ -1,10 +1,8 @@
 const path = require("path");
 
 // Log out information after a build is done
-exports.onPostBuild = ({ reporter, basePath, pathPrefix }) => {
-  reporter.info(
-    `Site was built with basePath: ${basePath} & pathPrefix: ${pathPrefix}`
-  );
+exports.onPostBuild = ({ reporter }) => {
+  reporter.info(`Your Gatsby site has been built!`);
 };
 
 exports.createPages = async ({ graphql, actions }) => {
