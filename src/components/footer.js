@@ -1,7 +1,9 @@
 import React from "react";
 
 import { Box, Container, Themed } from "theme-ui";
-import { Buttons, Column, Row } from "@carbonplan/components";
+import { Column, Row } from "@carbonplan/components";
+
+import ArrowButton from "./arrowbutton";
 
 const Label = ({ children }) => (
   <Box
@@ -18,13 +20,13 @@ const Label = ({ children }) => (
 
 const CarbonPlan = () => (
   <a href={"https://www.carbonplan.org"}>
-    <Buttons.ArrowButton
-      label="(carbon)plan"
-      fill="green"
-      color="green"
-      size="xs"
-      sx={{ display: "inline-block" }}
-    />
+    <Box as="span" sx={{ display: "inline-block"}}>
+      <ArrowButton color="green" size="xs">
+        <Box as="span" color="green">
+          (carbon)plan
+        </Box>
+      </ArrowButton>
+    </Box>
   </a>
 );
 
@@ -41,19 +43,25 @@ const Footer = () => (
         <Column start={[1, 1, 2, 2]} width={[3, 3]}>
           <Box>
             <Label> EMAIL </Label>
-            <Themed.a href="mailto:ojaswupadhyay@gmail.com" as="a">ojaswupadhyay@gmail.com</Themed.a>
+            <Themed.a href="mailto:ojasw@gatech.edu" as="a">
+              ojasw@gatech.edu
+            </Themed.a>
           </Box>
         </Column>
         <Column start={[1, 4, 5, 5]} width={[3, 3]} sx={{ mt: [3, 0, 0, 0] }}>
           <Box>
             <Label>GITHUB</Label>
-            <Themed.a href="https://github.com/oupadhyay" target="_blank">github.com/oupadhyay</Themed.a>
+            <Themed.a href="https://github.com/oupadhyay" target="_blank">
+              github.com/oupadhyay
+            </Themed.a>
           </Box>
         </Column>
         <Column start={[1, 7, 8, 8]} width={[2, 3]} sx={{ mt: [3, 0, 0, 0] }}>
           <Box>
             <Label>LINKEDIN</Label>
-            <Themed.a href="https://linkedin.com/in/ojasw/" target="_blank">linkedin.com/in/ojasw/</Themed.a>
+            <Themed.a href="https://linkedin.com/in/ojasw/" target="_blank">
+              linkedin.com/in/ojasw/
+            </Themed.a>
           </Box>
         </Column>
       </Row>
@@ -116,7 +124,7 @@ const Footer = () => (
               color: "secondary",
             }}
           >
-            Website built on top of the work of <CarbonPlan />
+            Website built on top of the work of <CarbonPlan />.
           </Box>
         </Box>
       </Column>

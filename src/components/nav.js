@@ -1,25 +1,36 @@
 import React from "react";
-import { Box, Text, Flex } from "theme-ui";
 
-import "@carbonplan/components/globals.css"
-import "@carbonplan/components/fonts.css"
-import "katex/dist/katex.min.css"
-
-import { Buttons } from "@carbonplan/components";
+import { Heading, Box, Text, Flex } from "theme-ui";
 import { Link } from "gatsby";
-import logo from "../images/logo1.png"
 
-const { ArrowButton } = Buttons;
+import logo from "../images/logo1.png";
+import ArrowButton from "./arrowbutton";
 
 const Navlink = ({ children, to, external = false }) => {
   const button = (
-    <ArrowButton fill="purple" size={"sm"} px={[2, 3]} label={children} />
+    <ArrowButton color="blue" size={"sm"}>
+      {children}
+    </ArrowButton>
   );
 
   return (
-    <Box sx={{ my: "auto", pb:[2, 0, 0, 0] }}>
-      {external ? <a href={to} target="_blank" rel="noreferrer"> {button} </a> : <Link to={to}> {button} </Link>}
-    </Box>
+    <Flex
+      sx={{
+        pr: [2, 4, 4, 4],
+        alignContent: "center",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      {external ? (
+        <a href={to} target="_blank">
+          {" "}
+          {button}{" "}
+        </a>
+      ) : (
+        <Link to={to}> {button} </Link>
+      )}
+    </Flex>
   );
 };
 
@@ -31,26 +42,36 @@ const Navbar = () => (
     }}
   >
     <Flex>
-      <Box>
+      <Heading
+        sx={{
+          fontWeight: "bold",
+          fontSize: [4, 4, 4, 4],
+        }}
+      >
         <Link to={"/"}>
           <img src={logo} alt="" height="100" />
         </Link>
-      </Box>
-      <Box sx={{ mx: "auto" }}></Box>
-      <Box>
-        <br /><br />
-        <Text sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps", paddingTop: "100" }}>
+      </Heading>
+      <Box sx={{ mx: "auto", my: "auto" }}>
+        <Text
+          sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps" }}
+        >
           MATH, CODE, AND OTHER CURIOSITIES.
         </Text>
       </Box>
-      <Box sx={{ mx: "auto" }}></Box>
-      <Box sx={{ paddingTop: "100" }}>
-        <br />
-        <Navlink to="/about"> About Me </Navlink>
-        <Navlink to="/"> Blog </Navlink>
-        <Navlink to="/resume"> Resume </Navlink>
-      </Box>
+      <Navlink to="/blog"> Blog </Navlink>
+      <Navlink external={true} to="https://bit.ly/oj-resume">
+        Resume
+      </Navlink>
     </Flex>
+
+    {/* <Box mt={[1, 3, 3, 3]} mb={[1, 2, 2, 2]}>
+      <Text
+        sx={{ fontSize: [1, null, null, null], letterSpacing: "smallcaps" }}
+      >
+        MATH, CODE, AND OTHER CURIOSITIES.
+      </Text>
+    </Box> */}
   </Box>
 );
 

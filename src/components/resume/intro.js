@@ -1,23 +1,13 @@
 import React from "react";
+
 import { Box, Text, Heading } from "theme-ui";
-import { Row, Column, Buttons, Arrow } from "@carbonplan/components";
+import { Row, Column } from "@carbonplan/components";
 import { Link } from "gatsby";
-
-import "@carbonplan/components/globals.css"
-import "@carbonplan/components/fonts.css"
-import "katex/dist/katex.min.css"
-
-const { ArrowButton } = Buttons;
+import { Arrow } from "@carbonplan/icons";
+import ArrowButton from "../arrowbutton";
 
 const Intro = () => (
-  <Box
-    sx={
-      {
-        height: "90vh",
-      }
-    }
-    mb={[5, 8]}
-  >
+  <Box mb={[5, 8]}>
     <Box
       sx={{
         position: "absolute",
@@ -53,17 +43,18 @@ const Intro = () => (
           }}
         >
           <Text>
-            I am an incoming freshman at the Georgia Institute of Technology. I
-            am majoring in Computer Science with a concentration in Intelligence and "Information Internetworks." Feel free to send
-            me an email, interesting articles, job opportunities, etc.
+            I'm a third-year from the Georgia Institute of Technology. I am
+            majoring in Computer Science and minoring in Finance. Feel free to
+            shoot me an email if you have anything to say, interesting articles,
+            job opportunities, etc.
           </Text>
 
           <Box mt={[4]}>
-            <Link to={"/resume"}>
-              <ArrowButton size="md" label="Resume" />
-            </Link>
-            <Link to={"/"}>
-              <ArrowButton sx={{ color: "gray" }} size="md" label="Blog" />
+            <Link to={"/blog"}>
+              <ArrowButton sx={{ color: "grey" }} size="md">
+                {" "}
+                Blog{" "}
+              </ArrowButton>
             </Link>
           </Box>
         </Box>

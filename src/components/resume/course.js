@@ -3,13 +3,19 @@ import { Box, Text, Heading } from "theme-ui";
 import { Row, Column } from "@carbonplan/components";
 
 const CourseList = [
-  "Differential and Integral Calculus",
+  "Honors Discrete Mathematics",
   "Linear Algebra",
-  "Object Oriented Programming",
-  "French",
-  "Macroeconomics",
-  "Mechanics",
-  "Electricity & Magnetism",
+  "Data Structures and Algorithms",
+  "Introduction to Artificial Intelligence",
+  "Finance and Investments",
+  "Statistics and Applications",
+  "Differential Equations",
+  "Computer Systems and Networks",
+  "Design and Analysis of Algorithms",
+  "Numerical Analysis",
+  "Financial Modeling",
+  "Computer Vision",
+  "Automata and Complexity Theory",
 ];
 
 const CourseWork = () => (

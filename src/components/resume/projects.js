@@ -1,13 +1,7 @@
 import React from "react";
 
-import "@carbonplan/components/globals.css"
-import "@carbonplan/components/fonts.css"
-import "katex/dist/katex.min.css"
-
-import { Box, Heading, Text } from "@theme-ui/components";
-import { Row, Column, Buttons } from "@carbonplan/components";
-
-const { CalloutButton } = Buttons;
+import { Box, Heading } from "@theme-ui/components";
+import { Row, Column, Callout } from "@carbonplan/components";
 
 const Projects = () => (
   <Box id="projects" mt={[3, 2, 6, 6]} mb={[3, 2, 6, 6]}>
@@ -24,13 +18,11 @@ const Projects = () => (
       </Column>
     </Row>
     <Row>
-      <Column start={[1, 1, 2, 2]} width={[4]}>
-        <Text color="text" variant="caps" sx={{ fontSize: 3 }}>
-          COMING SOON...
-          In the meanwhile,
-        </Text>
-        <a href="/resume" target="_blank" rel="noreferrer">
-          <CalloutButton color="primary" label="Resume" />
+      <Column start={[1, 1, 2, 2]} width={[3]}>
+        <a href="https://bit.ly/oj-resume" target="_blank">
+          <Callout color="primary" label="Resume">
+            Coming Soon... Check out:
+          </Callout>
         </a>
       </Column>
     </Row>

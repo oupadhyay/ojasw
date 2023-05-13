@@ -1,3 +1,9 @@
+/*
+ * File: 2021-06-21-pdf-dark-mode.md
+ * Created Date: 05-12-2023
+ * Author: Ojasw Upadhyay
+ * -------------------------------------------------------------------------------------------------------------------
+ */
 ---
 title: PDFs and the Quest for Dark Mode
 date: 2021-06-21

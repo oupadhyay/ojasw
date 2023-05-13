@@ -2,63 +2,48 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    title: "ojasw-website",
+    title: "personal-site",
   },
   plugins: [
-    "gatsby-plugin-theme-ui",
     `gatsby-plugin-sharp`,
-    `gatsby-remark-images`,
+    "gatsby-plugin-theme-ui",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/content/posts`,
-        name: "posts"
+        name: "posts",
       },
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `ojasw-personal-website`,
-        short_name: `ojasw`,
-        start_url: `/`,
-        icon: `src/images/logo-o.png`
-      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/assets`,
-        name: "assets"
+        name: "assets",
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/resume`,
-        name: `resume`
+        name: `resume`,
       },
     },
+    "gatsby-remark-images",
     {
       resolve: "gatsby-plugin-mdx",
       options: {
-        extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
-          `gatsby-remark-katex`,
-          {
-            resolve: `gatsby-remark-images`,
-            options: {}
-          }
-        ],
-        remarkPlugins: [require(`remark-math`), require(`remark-html-katex`)],
-      }
+        extensions: [".md", ".mdx"],
+        gatsbyRemarkPlugins: ["gatsby-remark-images", "gatsby-remark-prismjs"],
+        remarkPlugins: [require("remark-math"), require("remark-html-katex")],
+      },
     },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         typekit: {
-          id: process.env.TYPEKIT_ID
-        }
-      }
+          id: process.env.TYPEKIT_ID,
+        },
+      },
     },
   ],
 };
