@@ -65,7 +65,7 @@ const PostList = () => {
   return (
     <Box mt={[3, 5]} mb={[3, 5]}>
       {posts.map((post) => (
-        <PostPreview post={post} />
+        <PostPreview post={post} key="" />
       ))}
       {lastPost.length > 0 && (
         <PostPreview post={lastPost[0]} divider={false} />

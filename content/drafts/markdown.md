@@ -1,7 +1,7 @@
 ---
 title: Fast Fluid Dynamics
 date: 2020-05-14
-author: Sanjay Yepuri & Helen Zhou
+author: Bob
 type: post
 ---
 
@@ -51,7 +51,7 @@ This is a code block.
 const a = 2
 ```
 
-This is body copy that includes `inline code`. 
+This is body copy that includes `inline code`.
 
 This is a code block with a live editor.
 
