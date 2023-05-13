@@ -16,6 +16,7 @@ import { Left } from "@carbonplan/icons";
 const Post = ({ data }) => {
   const { blog } = data;
   const [{ body, frontmatter }] = blog.nodes;
+  console.log(frontmatter);
 
   return (
     <Layout mode="scroll">
