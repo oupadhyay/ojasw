@@ -27,6 +27,7 @@
     "@fontsource/rubik": "^4.5.6",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "@vercel/analytics": "^1.0.1",
     "gatsby": "^3.9.1",
     "gatsby-plugin-mdx": "^2.9.0",
     "gatsby-plugin-sharp": "^3.9.0",
