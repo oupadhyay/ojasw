@@ -12,7 +12,6 @@ import { Left } from "@carbonplan/icons";
 
 const Post = ({ data }) => {
   const { blog } = data;
-  console.log(blog);
   const [{ body, frontmatter }] = blog.nodes;
 
   return (

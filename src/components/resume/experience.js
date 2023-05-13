@@ -26,9 +26,7 @@ const Job = ({ job }) => {
         <Row columns={[6, 7, 8, 8]}>
           <Column start={[1]} width={[6, 4, 5, 5]}>
             <Box sx={{ pt: "1px" }}>
-              <Text sx={{ fontFamily: "heading" }}>
-                {job.frontmatter.title}{" "}
-              </Text>
+              <Text sx={{ fontFamily: "heading" }}>{frontmatter.title} </Text>
               <Text
                 sx={{
                   display: "inline-block",
@@ -36,7 +34,7 @@ const Job = ({ job }) => {
                   fontSize: [2, 2, 2, 3],
                 }}
               >
-                {job.frontmatter.role}
+                {frontmatter.role}
               </Text>
             </Box>
           </Column>
@@ -54,7 +52,7 @@ const Job = ({ job }) => {
                 }}
               >
                 <Text>
-                  {job.frontmatter.start} - {job.frontmatter.end}{" "}
+                  {frontmatter.start} - {frontmatter.end}{" "}
                 </Text>
               </Box>
               <Expander
@@ -69,7 +67,7 @@ const Job = ({ job }) => {
 
       <AnimateHeight height={expanded ? "auto" : 0}>
         <Box>
-          <MDXRenderer>{job.body}</MDXRenderer>
+          <MDXRenderer>{body}</MDXRenderer>
         </Box>
       </AnimateHeight>
       <hr />
@@ -114,7 +112,7 @@ const Experience = () => {
       <Row mb={[1, 2]}>
         <Column start={[1, 1, 2, 2]} width={[6, 7, 8, 8]}>
           {data.experience.jobs.map((job) => (
-            <Job job={job} />
+            <Job job={job} key="" />
           ))}
         </Column>
       </Row>
