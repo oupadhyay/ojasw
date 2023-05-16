@@ -4,7 +4,7 @@ role: Data Acquisitions Engineer
 start: September 2021
 end: Present
 
-date: 2096
+date: 2096-01-01
 
 type: job
 ---

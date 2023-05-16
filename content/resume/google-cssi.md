@@ -4,7 +4,7 @@ role: Apprentice
 start: May 2021
 end: Aug 2021
 
-date: 2098
+date: 2098-01-01
 
 type: job
 ---

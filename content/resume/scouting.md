@@ -4,7 +4,7 @@ role: SPL of Troop 154
 start: May 2020
 end: May 2021
 
-date: 2097
+date: 2097-01-01
 
 type: project
 ---

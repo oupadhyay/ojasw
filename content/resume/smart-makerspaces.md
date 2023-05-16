@@ -4,7 +4,7 @@ role: Senior Researcher
 start: August 2021
 end: December 2022
 
-date: 2095
+date: 2095-01-01
 
 type: project
 ---
