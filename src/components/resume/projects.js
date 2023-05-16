@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Box, Heading } from "@theme-ui/components";
+import { Box, Text, Heading } from "@theme-ui/components";
 import { Row, Column, Expander } from "@carbonplan/components";
 
 import { graphql, useStaticQuery } from "gatsby";

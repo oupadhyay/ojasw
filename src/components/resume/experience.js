@@ -2,6 +2,7 @@ import React from "react";
 
 import { Box, Text, Heading } from "theme-ui";
 import { Expander, Row, Column } from "@carbonplan/components";
+
 import { graphql, useStaticQuery } from "gatsby";
 import AnimateHeight from "react-animate-height";
 import { MDXRenderer } from "gatsby-plugin-mdx";
