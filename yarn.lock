@@ -9495,7 +9495,7 @@ next-tick@^1.1.0, next-tick@1:
   resolved "https://registry.npmjs.org/next-tick/-/next-tick-1.1.0.tgz"
   integrity sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==
 
-"next@^10.1.3 || ^11.0.1", next@^11.0.1:
+"next@^10.1.3 || ^11.0.1":
   version "11.1.4"
   resolved "https://registry.npmjs.org/next/-/next-11.1.4.tgz"
   integrity sha512-GWQJrWYkfAKP8vmrzJcCfRSKv955Khyjqd5jipTcVKDGg+SH+NfjDMWFtCwArcQlHPvzisGu1ERLY0+Eoj7G+g==
