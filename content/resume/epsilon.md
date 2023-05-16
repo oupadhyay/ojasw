@@ -4,7 +4,7 @@ role: Director of Technology
 start: Aug 2020
 end: June 2021
 
-date: Aug 2020
+date: January 2099
 
 type: project
 ---

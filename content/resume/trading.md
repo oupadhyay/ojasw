@@ -4,7 +4,7 @@ role: Secretary & Executive Board Member
 start: October 2021
 end: Present
 
-date: October 2022
+date: May 2099
 
 type: job
 ---

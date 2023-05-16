@@ -4,7 +4,7 @@ role: Software Developer + High School Ambassador
 start: Apr 2020
 end: May 2021
 
-date: November 2020
+date: January 2099
 
 type: job
 ---
