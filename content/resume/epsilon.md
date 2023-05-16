@@ -1,12 +1,12 @@
 ---
-role: CTO
 title: Epsilon Hacks
+role: Director of Technology
 start: Aug 2020
-end: Present
+end: June 2021
 
-date: 2020-02-01
+date: Aug 2020
 
-type: job
+type: project
 ---
 
-More details.
+Helped design, develop, and deploy the website for Epsilon Hacks, a hackathon for high schoolers from around the world
