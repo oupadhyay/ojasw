@@ -80,7 +80,7 @@ const Projects = () => {
   const data = useStaticQuery(graphql`
     {
       experience: allMdx(
-        sort: { fields: frontmatter___date, order: DESC }
+        sort: { fields: frontmatter___date, order: ASC }
         filter: { frontmatter: { type: { eq: "project" } } }
       ) {
         projects: nodes {
