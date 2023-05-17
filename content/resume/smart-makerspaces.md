@@ -1,8 +1,8 @@
 ---
 title: VIP SMART^3 Makerspaces
 role: Senior Researcher
-start: August 2021
-end: December 2022
+start: Aug 2021
+end: Dec 2022
 
 date: 2095-01-01
 
