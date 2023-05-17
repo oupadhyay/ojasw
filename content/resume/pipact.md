@@ -2,7 +2,7 @@
 title: PiPACT
 role: Student Researcher
 start: May 2020
-end: August 2020
+end: Aug 2020
 
 date: 2096-01-01
 
