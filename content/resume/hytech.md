@@ -1,7 +1,7 @@
 ---
 title: HyTech Racing
 role: Data Acquisitions Engineer
-start: September 2021
+start: Sept 2021
 end: Present
 
 date: 2096-01-01
