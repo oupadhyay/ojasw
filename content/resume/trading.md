@@ -1,7 +1,7 @@
 ---
 title: Trading Club @ GT
 role: Secretary & Executive Board Member
-start: October 2021
+start: Oct 2021
 end: Present
 
 date: 2095-01-01
