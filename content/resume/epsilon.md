@@ -2,7 +2,7 @@
 title: Epsilon Hacks
 role: Director of Technology
 start: Aug 2020
-end: June 2021
+end: Jun 2021
 
 date: 2099-01-01
 
