@@ -1,6 +1,6 @@
 ---
 title: CovEducation
-role: Software Developer + High School Ambassador
+role: Software Developer & Ambassador
 start: Apr 2020
 end: May 2021
 
