@@ -3,19 +3,20 @@ import { Box, Text, Heading } from "theme-ui";
 import { Row, Column } from "@carbonplan/components";
 
 const CourseList = [
-  "Honors Discrete Mathematics",
-  "Linear Algebra",
   "Data Structures and Algorithms",
   "Introduction to Artificial Intelligence",
-  "Finance and Investments",
-  "Statistics and Applications",
-  "Differential Equations",
-  "Computer Systems and Networks",
-  "Design and Analysis of Algorithms",
-  "Numerical Analysis",
-  "Financial Modeling",
   "Computer Vision",
+  "Numerical Analysis",
   "Automata and Complexity Theory",
+  "Design and Analysis of Algorithms",
+  "Computer Systems and Networks",
+  "Linear Algebra",
+  "Differential Equations",
+  "Honors Discrete Mathematics",
+  "Statistics and Applications",
+  "Finance and Investments",
+  "Financial Modeling",
+  "Management of Financial Institutions",
 ];
 
 const CourseWork = () => (
