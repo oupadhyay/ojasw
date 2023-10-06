@@ -17,7 +17,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "@carbonplan/components": "^8.0.0",
+    "@carbonplan/components": "^12.3.0",
     "@carbonplan/prism": "^1.0.3",
     "@carbonplan/theme": "^6.0.1",
     "@fontsource/fira-code": "^4.5.8",
