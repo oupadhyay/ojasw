@@ -60,7 +60,7 @@ const Navbar = () => (
         </Text>
       </Box>
       <Navlink to="/blog"> Blog </Navlink>
-      <Navlink external={true} to="https://bit.ly/oj-resume">
+      <Navlink external={true} to="https://bit.ly/ojasw-resume">
         Resume
       </Navlink>
     </Flex>

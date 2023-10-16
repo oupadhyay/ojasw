@@ -20,8 +20,8 @@ const AboutPage = () => {
       <Box mt={[1, 2]} mb={[1, 2, 2, 2]}>
         <Intro />
         <Experience />
-        <CourseWork />
         <Projects />
+        <CourseWork />
       </Box>
       <Analytics />
     </Layout>
