@@ -1207,24 +1207,24 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@carbonplan/components@^8.0.0":
-  version "8.3.0"
-  resolved "https://registry.npmjs.org/@carbonplan/components/-/components-8.3.0.tgz"
-  integrity sha512-o2DQ0U2KVjFYxUoFoTGc/HN8BQY6QsLNmJRv9XHd7XkZJ55s9nVZOS1QgiJBzd9yl6dMvk6Nc6dPWPl7Bh6ATg==
+"@carbonplan/components@^12.3.0":
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/@carbonplan/components/-/components-12.3.0.tgz#d623b00d25bbb10ef93fdd3d855320b0f4c7f375"
+  integrity sha512-yypJa1km6M8fcnv48B6AqxHoyS3ugrb+bSTZ39FVMX1ONMFQ5pj769cm6ULkSlToQLDlpWAQ87rSUGUQax1HGw==
   dependencies:
-    "@carbonplan/emoji" "^1.0.0"
-    "@carbonplan/icons" "^1.0.0"
-    "@theme-ui/color" ">=0.10.0"
+    "@carbonplan/emoji" "^2.0.0"
+    "@carbonplan/icons" "^2.0.0"
+    "@theme-ui/color" ">=0.15.0"
 
-"@carbonplan/emoji@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/@carbonplan/emoji/-/emoji-1.1.0.tgz"
-  integrity sha512-GdVgY3pcrGQ6zY1kduXJNm0uy3pVW5IEBgseXMp5fr+KDws43RLjTearYxok+5dzZjZ3JHJNIUBgt1phheXlkQ==
+"@carbonplan/emoji@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@carbonplan/emoji/-/emoji-2.0.0.tgz#c5bf1384a3e5f446ccb7ed7cdec4915b46af0ce5"
+  integrity sha512-KnJ4uu6fY+TM10gS5nKpVCzUdISvFPUQC66G3SjUPVSwQgYCFoQ2PQmbxK2bvtmd7ox4fszarkYNC1chyrW81g==
 
-"@carbonplan/icons@^1.0.0":
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/@carbonplan/icons/-/icons-1.1.1.tgz"
-  integrity sha512-iZ91YGR+P0g12EObEGl8EbLRhw+reOJqZdVsQ1CQphDWZ8uYPpEuDu7W+fiS0v5jgFSaTg0ENQRoYDWmoImHPA==
+"@carbonplan/icons@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@carbonplan/icons/-/icons-2.0.0.tgz#4618f637371c2faf5b0c73499c3cf70b27c04053"
+  integrity sha512-LtvSM3CFmSwlPq+0THW9ewoKm2/tQT1aYfELC9yC35d4uhCgNjGVXKe940B+F6eudrKV/RCMyfNos4ApdW1kbQ==
 
 "@carbonplan/prism@^1.0.3":
   version "1.1.0"
@@ -1941,12 +1941,12 @@
     "@theme-ui/css" "0.10.0"
     deepmerge "^4.2.2"
 
-"@theme-ui/color@>=0.10.0":
-  version "0.15.7"
-  resolved "https://registry.npmjs.org/@theme-ui/color/-/color-0.15.7.tgz"
-  integrity sha512-05hZo6Mieua6Ln/cp6YKqcYkqJaLq49L5EvS/55XIdoa3YpANqjDR67tOL0g3jD11dv7YQIegYHjGZwApaEj+w==
+"@theme-ui/color@>=0.10.0", "@theme-ui/color@>=0.15.0":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/color/-/color-0.16.1.tgz#f62d08ead05f106f2442d58b9e14c83eaf460edf"
+  integrity sha512-oWNd1ZDCRgiqQLjE0f1YHFzWDcL+Vm3/QqyvkAU/NyD+fDsS+xcHHejqwii7yBbwbETVr2s5TzNWP8vZ5crcIw==
   dependencies:
-    "@theme-ui/css" "^0.15.7"
+    "@theme-ui/css" "^0.16.1"
     polished "^4.0.5"
 
 "@theme-ui/components@0.10.0":
@@ -1980,10 +1980,10 @@
     "@emotion/react" "^11.1.1"
     csstype "^3.0.5"
 
-"@theme-ui/css@^0.15.7":
-  version "0.15.7"
-  resolved "https://registry.npmjs.org/@theme-ui/css/-/css-0.15.7.tgz"
-  integrity sha512-RBCoA3ElO3+DrMPeBKcwbP668Kjj/d5z9SSxJFnfVnawKQfYK0ZNWqMnyV89XO3rZm342rCNG0uVhc19jVQifg==
+"@theme-ui/css@^0.16.1":
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@theme-ui/css/-/css-0.16.1.tgz#9c7a4f0e75b18dae3a0bb6cc9e673a03e13eed0a"
+  integrity sha512-8TO2DbiqPrRyTlGRIElDak/p0M4ykyd8LkeavyOF/sTE9s93AwyFcle6KYYMEULrJP49SyYiEvTif7J7Z50DhA==
   dependencies:
     csstype "^3.0.10"
 
