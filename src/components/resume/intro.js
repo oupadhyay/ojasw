@@ -43,10 +43,9 @@ const Intro = () => (
           }}
         >
           <Text>
-            I'm a third-year from the Georgia Institute of Technology. I am
-            majoring in Computer Science and minoring in Finance. Feel free to
-            shoot me an email if you have anything to say, interesting articles,
-            job opportunities, etc.
+            I'm a third-year student at Georgia Institute of Technology. I am
+            majoring in Computer Science with a specialization in Machine Learning
+            and minoring in Finance. Feel free to contact me!
           </Text>
 
           <Box mt={[4]}>
