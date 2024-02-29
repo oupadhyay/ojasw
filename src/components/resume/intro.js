@@ -43,7 +43,7 @@ const Intro = () => (
           }}
         >
           <Text>
-            I'm a third-year student at Georgia Institute of Technology. I am
+            I am a third-year student at Georgia Institute of Technology. I am
             majoring in Computer Science with a specialization in Machine Learning
             and minoring in Finance. Feel free to contact me!
           </Text>
